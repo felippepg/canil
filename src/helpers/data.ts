@@ -1,4 +1,14 @@
-const data = [
+export type PetType = 'dog' | 'cat' | 'fish'
+
+export type PetData = {
+    type: PetType,
+    image: string,
+    name: string,
+    color: string,
+    sex: 'Masculino' | 'Feminino'
+}
+
+const data: PetData[] = [
     {
         type: 'dog',
         image: 'pastor-alemao.jpg',
