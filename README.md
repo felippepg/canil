@@ -27,9 +27,6 @@ $ yarn install
 # Execute a aplicação em modo de desenvolvimento
 $ yarn run start:dev
 
-# Antes de executar a aplicação em modo de produção, transformar os arquivos Typescripts em Javascripts
-$ yarn postinstall
-
 # Execute a aplicação em modo de produção
 $ yarn run start
 
