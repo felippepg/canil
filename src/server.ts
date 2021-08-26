@@ -22,4 +22,4 @@ server.use((request: Request, response: Response) => {
     response.render('pages/404')
 })
 
-server.listen(3000)
+server.listen(process.env.PORT || 3000)
