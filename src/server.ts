@@ -4,6 +4,9 @@ import path from 'path';
 import route from './routes/index';
 const server = express();
 import { Request, Response } from 'express';
+import dotenv from "dotenv"
+
+dotenv.config()
 
 //configurando template engine
 server.set('view engine', 'mustache');
