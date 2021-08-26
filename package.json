@@ -6,7 +6,8 @@
     "node": "15.x"
   },
   "scripts": {
-    "postinstall": "tsc && copyfiles -u 1 src/**/*.mustache bundle",
+    "tsc": "tsc",
+    "postinstall": "yarn run tsc && copyfiles -u 1 src/**/*.mustache bundle",
     "start": "node bundle/server.js",
     "start:dev": "nodemon src/server.ts"
   },
