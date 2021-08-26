@@ -40,9 +40,9 @@ $ yarn run start
 
 As seguintes ferramentas foram usadas na construção da API:
 
-- [Node.js][nodejs]
-- [Typescript][typescrip]
-- [Mustache][mustache]
+- [Node.js](https://nodejs.org/en/)
+- [Typescript](https://www.typescriptlang.org/)
+- [Mustache](https://mustache.github.io/)
 
 ## Features
 
