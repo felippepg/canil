@@ -21,4 +21,4 @@ server.use(index_1.default);
 server.use((request, response) => {
     response.render('pages/404');
 });
-server.listen(3000);
+server.listen(process.env.PORT || 3000);
